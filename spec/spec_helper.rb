@@ -1,9 +1,9 @@
 require File.join(File.dirname(__FILE__), "../", "app.rb")
 
 require 'capybara'
-require 'sinatra'
 require 'capybara/rspec'
 require 'pg'
+require 'sinatra'
 
 Capybara.app = DailyDiary
 
