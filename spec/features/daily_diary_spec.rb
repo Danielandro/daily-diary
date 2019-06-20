@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 feature 'visiting homepage' do
   scenario 'Should_display (Hello Daily Diary!)_When_accesing Index' do
     visit('/')
